@@ -1,7 +1,6 @@
 #as of the writing of these Vocola extensions, Vocola is not taking more than 1 variable per
 #(def) functions
 #that's why I'm using global variables
-#test
 
 import sys
 import pywinauto
@@ -21,6 +20,7 @@ def commonvars():
     global app
 
     #setting up for move/resize
+    
     Title = GetWindowText(GetForegroundWindow())
         
     app = application.Application(backend="win32").connect(title_re=Title)
