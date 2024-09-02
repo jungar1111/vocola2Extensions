@@ -1,6 +1,7 @@
 #as of the writing of these Vocola extensions, Vocola is not taking more than 1 variable per
 #(def) functions
 #that's why I'm using global variables
+#test
 
 import sys
 import pywinauto
